@@ -13,6 +13,7 @@
 		C4862AE625EAAE08004A7824 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C4862AE525EAAE08004A7824 /* Preview Assets.xcassets */; };
 		C4862AF125EAAE08004A7824 /* LinearProgressiveBarTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4862AF025EAAE08004A7824 /* LinearProgressiveBarTests.swift */; };
 		C4862AFC25EAAE08004A7824 /* LinearProgressiveBarUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4862AFB25EAAE08004A7824 /* LinearProgressiveBarUITests.swift */; };
+		C4862B0D25EAAE55004A7824 /* ProgressBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4862B0C25EAAE55004A7824 /* ProgressBar.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +46,7 @@
 		C4862AF725EAAE08004A7824 /* LinearProgressiveBarUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LinearProgressiveBarUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C4862AFB25EAAE08004A7824 /* LinearProgressiveBarUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinearProgressiveBarUITests.swift; sourceTree = "<group>"; };
 		C4862AFD25EAAE08004A7824 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C4862B0C25EAAE55004A7824 /* ProgressBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressBar.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +98,7 @@
 			isa = PBXGroup;
 			children = (
 				C4862ADE25EAAE06004A7824 /* LinearProgressiveBarApp.swift */,
+				C4862B0C25EAAE55004A7824 /* ProgressBar.swift */,
 				C4862AE025EAAE06004A7824 /* ContentView.swift */,
 				C4862AE225EAAE08004A7824 /* Assets.xcassets */,
 				C4862AE725EAAE08004A7824 /* Info.plist */,
@@ -260,6 +263,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C4862AE125EAAE06004A7824 /* ContentView.swift in Sources */,
+				C4862B0D25EAAE55004A7824 /* ProgressBar.swift in Sources */,
 				C4862ADF25EAAE06004A7824 /* LinearProgressiveBarApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
